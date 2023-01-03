@@ -1,0 +1,18 @@
+.headerNav {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: black;
+}
+
+.headerList {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.headerLink {
+    text-decoration: none;
+    color: white;
+}
