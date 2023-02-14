@@ -1,16 +1,17 @@
 Warning: currently only adapted to a 1024x780 screenview
 
-- Start by cloning the project on your computer: `git clone // repo name to be replaced //`
+- Start by cloning the project on your computer: `git clone https://github.com/alleytuna/P9-sportsee`
+
 ## Tryout this project with local mocked datas
 - `cd sportsee-front`
 - Install the dependencies: `npm install`
-- Run the app in the development mode: `npm start`
+- Run the app: `npm start`
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Tryout this project with an api 
 - `cd sportsee-back`
-- Install the dependencies: `npm install`
-- Launch it on port localhost:3000 by doing `npm start`
+- Install dependencies: `npm install`
+- Launch api on port 3000 with `npm start`
 Then launch front:
 - `cd ../sportsee-front`
 - Install the dependencies: `npm install`
