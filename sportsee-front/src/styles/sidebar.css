@@ -1,14 +1,14 @@
 .sidebarNav {
-    width: 100px;
+    width: 8vw;
+    position: absolute;
     background-color: black;
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
+    height: 92vh;
     text-align: center;
 }
 
 .sidebarList {
-    height: 80%;
+    width: 8vw;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -22,10 +22,11 @@
 }
 
 .copyright {
+    font-size: 12px;
     display: flex;
     color: white;
     width: 200px;
     rotate: 270deg;
-    margin-left: -50px;
+    margin-left: -58px;
     margin-top: -20px;
 }

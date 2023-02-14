@@ -1,0 +1,150 @@
+.homeMain {
+    position: relative;
+    margin: 144px;
+    margin-top: 16px;
+    width: 90vw;
+}
+
+.welcomeTitle {
+    display: inline-flex;
+    align-items: center;
+    margin: 0px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.name {
+    color: red;
+}
+
+.welcomeSubtitle {
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* charts style */
+
+.leftSideCharts {
+    position: absolute;
+}
+
+/* activity chart */
+.dailyActivityChart {
+    background-color: #FBFBFB;
+    padding: 16px;
+    margin-top: 18px;
+    border-radius: 10px;
+
+}
+
+.activityTitle {
+    position: absolute;
+    top: 42px;
+    font-size: 15px;
+    color: #20253A;
+}
+
+.tooltipStyleActivity {
+    background-color: red;
+    margin-left: 8px;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* squared charts */
+.groupOfSquareCharts {
+    display: inline-flex;
+    height: 150px;
+    width: 575px;
+    margin-top: 24px;
+    justify-content: space-between;
+}
+
+.sessionsAverageDuration {
+    background-color: red;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.sessionsDurationTitle {
+    font-size: 10px;
+    margin-left: 10px;
+    padding-top: 12px;
+    color: white;
+    opacity: 51%;
+}
+
+.tooltipStyleSessions {
+    background-color: white;
+    margin-left: 16px;
+    color: black;
+    padding: 8px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.performanceRadar {
+    background-color: #282D30;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.scoreChart {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    text-align: center;
+    background-color: #FBFBFB;
+    border-radius: 10px;
+}
+
+.scoreTitle {
+    position: absolute;
+    top: 50;
+}
+
+.scoreMessage {
+    position: absolute;
+    margin-left: 40px;
+    width: 75px;
+    font-size: 10px;
+    color: #74798C;
+}
+
+.scoreNumber {
+    color: #282D30;
+    font-weight: 500;
+    font-size: 13px;
+    margin: 5px;
+}
+
+/* side billboard */
+.keyDataBillboard {
+    position: absolute;
+    right: 64px;
+}
+
+.singleData {
+    display: flex;
+    background-color: #FBFBFB;
+    margin: 20px;
+    padding: 16px 32px;
+    border-radius: 10px;
+}
+
+.dataText {
+    padding-left: 8px;
+}
+
+.dataNumber {
+    font-weight: 500;
+}
+
+.dataName {
+    font-size: small;
+    color: #74798C;
+}
