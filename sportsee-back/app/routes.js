@@ -4,7 +4,7 @@ const idx = require('idx')
 const router = express.Router()
 
 const {
-    getUserById,
+    getUserMainInfoById,
     getUserActivityById,
     getUserAverageSession,
     getUserPerformance
@@ -17,7 +17,7 @@ const {
 
 router.get('/user/:id', (req, res) => {
     const userId = idx(req, _ => _.params.id)
-    const userData = getUserById(Number(userId))
+    const userData = getUserMainInfoById(Number(userId))
 
     return handleNoUserData(res, userData)
 })

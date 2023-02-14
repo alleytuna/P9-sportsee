@@ -9,7 +9,7 @@ const {
  * @description Retrieve the main user info (first name, last name, today score)
  * @param {number} id 
  */
-const getUserById = id => USER_MAIN_DATA
+const getUserMainInfoById = id => USER_MAIN_DATA
     .filter(user => user.id === id)
     .shift()
 
@@ -38,7 +38,7 @@ const getUserPerformance = id => USER_PERFORMANCE
     .shift()
 
 module.exports = {
-    getUserById,
+    getUserMainInfoById,
     getUserActivityById,
     getUserAverageSession,
     getUserPerformance
